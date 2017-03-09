@@ -124,13 +124,19 @@ if your docker next CONTAINER IP
 172.17.0.5      pcmk_test4
 172.17.0.6      pcmk_test5
 ```
-Run cluster
+Run cluster 
 ```
-docker run -d -P --privileged=true --name=pcmk_test1 pacemaker_docker
-docker run -d -P --privileged=true --name=pcmk_test2 pacemaker_docker
-docker run -d -P --privileged=true --name=pcmk_test3 pacemaker_docker
-docker run -d -P --privileged=true --name=pcmk_test4 pacemaker_docker
-docker run -d -P --privileged=true --name=pcmk_test5 pacemaker_docker
+# docker run -d -P --privileged=true --name=pcmk_test1 pacemaker_docker
+6572fdae4a56eb6ada966e2e9692ef11677f54875c7f0c1791605b6753b7da11
+# docker run -d -P --privileged=true --name=pcmk_test2 pacemaker_docker
+2d31ef46d8ddc86672df95e2f3351a27e4e343bf600b941a1a1c85cc909bd13a
+# docker run -d -P --privileged=true --name=pcmk_test3 pacemaker_docker
+3cf401337c4bb633d070f71337595e31b0f928657467e234de86b4766013b453
+# docker run -d -P --privileged=true --name=pcmk_test4 pacemaker_docker
+9a9df1fcf5f7821548a10b753b8ab65bb7bd0e606724c00e02731126af270035
+# docker run -d -P --privileged=true --name=pcmk_test5 pacemaker_docker
+41cd74ea53aa171945975f881a43066048cf033962e31c01355992dc9f189574
+
 ```
 Test cluster Auth
 ```
